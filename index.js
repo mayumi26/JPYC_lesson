@@ -1,4 +1,5 @@
 
+let a = "こんにちは"
 window.onload = function() {
- console.log("ページを読み込みました！");
+ console.log(a);
 };
