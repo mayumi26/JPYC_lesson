@@ -1,4 +1,4 @@
-console.log("hellow world");
+/* console.log("hellow world");
 console.log("こんにちは");
 console.log("gm");
 
@@ -9,12 +9,12 @@ provider.send("eth_requestAccounts", []);
 const signer = provider.getSigner()
 
  a = provider.getBlockNumber();
- console.log(a);
+ console.log(a); */
 
 
-/＊window.onload = function() {
+/* window.onload = function() {
  alert("ページが読み込まれました！");
-};*/
+}; */
 
  
 window.onload = function() {
