@@ -11,8 +11,8 @@ const signer = provider.getSigner()
  a = provider.getBlockNumber();
  console.log(a);
 
-let a = "こんにちは”
+
 window.onload = function() {
-  alert(a);
+  alert("ページが読み込まれました！);
 };
  
