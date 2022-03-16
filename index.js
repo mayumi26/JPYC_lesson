@@ -13,6 +13,6 @@ const signer = provider.getSigner()
 
 
 window.onload = function() {
-  alert("ページが読み込まれました！);
+  console.log("こんにちは");
 };
  
