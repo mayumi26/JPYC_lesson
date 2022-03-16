@@ -17,3 +17,6 @@ const signer = provider.getSigner()
 };*/
 
  
+window.onload = function() {
+ console.log("ページを読み込みました！");
+};
