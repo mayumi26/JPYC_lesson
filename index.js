@@ -12,7 +12,8 @@ const signer = provider.getSigner()
  console.log(a);
 
 
-window.onload = function() {
-  console.log("こんにちは");
-};
+/＊window.onload = function() {
+ alert("ページが読み込まれました！");
+};*/
+
  
