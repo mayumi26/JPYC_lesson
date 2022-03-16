@@ -1,6 +1,15 @@
-console.log("hello world");
+console.log("hellow world");
+console.log("こんにちは");
+console.log("gm");
 
-window.onload = function() {
-  alert("ページが読み込まれました！");
-};
+const provider = new ethers.providers.Web3Provider(window.ethereum)
+
+provider.send("eth_requestAccounts", []);
+
+const signer = provider.getSigner()
+
+ a = provider.getBlockNumber();
+ console.log(a);
+
+
  
