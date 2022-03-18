@@ -1,6 +1,5 @@
 
+
 let a;
-window.onload = function() {
- a = "こんにちは";
- console.log(a);
-};
+window.onload = async function myfunc1(){
+  a = ethers.getSinger()
